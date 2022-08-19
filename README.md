@@ -1,3 +1,21 @@
+```javascript
+import WebDeveloper from 'norman';
+import { Languages, Frameworks } from 'norman/skills';
+
+class Bio extends WebDeveloper {
+  name     = 'Norman DONOU-SEKPE';
+  title    = 'Senior Web developper & Software Developer  ';
+  location = 'Cotonou, BENIN';
+}
+
+class Skills extends WebDeveloper {
+  languages  = ['JavaScript', 'PHP', 'html', 'CSS', ...Languages];
+  frameworks  = ['Laravel', 'Nodejs', 'Bootstrap', 'TailwindCSS', 'VueJS', 'React' ...Frameworks];
+  CMS  = ['Wordpress', 'Shopify', 'Woocommerce', ...CMS];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+}
+
+```
 <h1 align="center">Hi 👋, I'm Norman DONOU-SEKPE</h1>
 <h3 align="center">A senior Web developer & Software developer from Bénin</h3>
 
@@ -26,30 +44,3 @@
 <p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=normento&show_icons=true&locale=en" alt="normento" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=normento&" alt="normento" /></p>
-
-
-
-
-
-
-
-
-
-
-
-<span style="color:red;"import</span> SoftwareDeveloper from 'norman';
-import { Languages, Frameworks } from 'norman/skills';
-
-class Bio extends SoftwareDeveloper {
-  name     = 'Norman DONOU-SEKPE';
-  title    = 'Senior Web developper & Software Developer  ';
-  location = 'Cotonou, BENIN';
-}
-
-class Skills extends SoftwareDeveloper {
-  languages  = ['JavaScript', 'PHP', 'html', 'CSS', ...Languages];
-  frameworks  = ['Laravel', 'Nodejs', 'Bootstrap', 'TailwindCSS', 'VueJS', 'React' ...Frameworks];
-  CMS  = ['Wordpress', 'Shopify', 'Woocommerce', ...CMS];
-  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
-}
-
